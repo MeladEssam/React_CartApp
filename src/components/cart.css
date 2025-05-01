@@ -1,0 +1,20 @@
+.cart-table {
+  --bs-table-color: #fff;
+  --bs-table-bg: #0f161d !important;
+  --bs-table-border-color: #56aff12b !important;
+  --bs-table-striped-bg: #161e27 !important;
+  /* --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff; */
+  --bs-table-hover-bg: #192331 !important;
+  /* --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color); */
+}
+th {
+  padding: 20px !important;
+  color: rgb(90 255 97) !important;
+}
+.total-price {
+  color: rgb(90 255 97) !important;
+}

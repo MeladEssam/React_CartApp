@@ -1,0 +1,28 @@
+.myNav {
+  background-color: #12151b !important;
+  box-shadow: 0 0.5rem 1rem rgb(1 3 6 / 58%) !important;
+  padding: 15px 15px 30px !important;
+}
+.logo {
+  color: rgb(90 255 97) !important;
+}
+.myLink {
+  transition-duration: 0.4s !important;
+}
+.myLink:hover {
+  color: rgb(90 255 97) !important;
+}
+.cart-span {
+  position: absolute;
+  left: 40px;
+  bottom: -20px;
+  background: #2b4154;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  /* transform: translate(-50%, -50%); */
+  text-align: center;
+  font-size: 16px;
+  color: rgb(90 255 97);
+}
