@@ -1,10 +1,11 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 
 import "./App.css";
 import NavbarApp from "./components/NavbarApp";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
 
+// import ProductsCategory from "./Components/Pages/ProductsCategory";
 function App() {
   return (
     <div className="App">
@@ -18,3 +19,4 @@ function App() {
 }
 
 export default App;
+// export default GetName;
