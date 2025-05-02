@@ -3,7 +3,6 @@ import { clearCart, deleteFromCart } from "../rtk/slices/cartSlice";
 import Table from "react-bootstrap/Table";
 import { Button, Image } from "react-bootstrap";
 import "./cart.css";
-import { useEffect } from "react";
 function Cart() {
   let dispatch = useDispatch();
   let productsInCart = useSelector((state) => state.cart);
